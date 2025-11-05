@@ -30,7 +30,7 @@ public class JpaConfig {
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         ds.setUrl("jdbc:sqlserver://localhost:1433;databaseName=grocery;encrypt=true;trustServerCertificate=true");
-        ds.setUsername("marudhu.manickam");
+        ds.setUsername("sa");
         ds.setPassword("whatever");
         return ds;
 

@@ -1,0 +1,11 @@
+<tx:annotation-driven transaction-manager="transactionManager" />
+Automatically detect and handle methods annotated with @Transactional,
+using the bean named transactionManager to manage the transactions.
+
+
+EntityManager	Low-level JPA API	Core JPA interface to interact directly with the persistence context (insert, update, delete, query).
+JpaRepository	High-level Spring Data abstraction	Built on top of EntityManager — gives you ready-made CRUD methods, so you don’t have to write boilerplate code.
+
+In short:
+
+JpaRepository uses EntityManager internally.
